@@ -7,8 +7,8 @@ const HeaderPage =()=>{
     return (
         <nav>
             <NavLink to="/" activeStyle={activeStyle}>Home</NavLink>{" | "}
-            <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
-
+            <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>{" | "}
+            <NavLink to="/courses" activeStyle={activeStyle}>courses</NavLink>
         </nav>
     )
 }
